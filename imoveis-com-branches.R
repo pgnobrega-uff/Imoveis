@@ -11,3 +11,6 @@ head(dados)
 
 
 # 3. Medidas descritivas
+mean(imposto_anual)
+median(imposto_anual)
+sd(imposto_anual)
