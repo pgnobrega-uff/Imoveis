@@ -8,6 +8,7 @@ str(dados)
 head(dados)
 
 # 2. Gráficos
-
+dados |> ggplot(aes(x = metragem)) + geom_histogram(bins = 5, color = "gray", fill = "lightblue") + 
+  theme_classic()
 
 # 3. Medidas descritivas
