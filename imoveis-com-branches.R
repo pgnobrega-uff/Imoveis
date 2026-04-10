@@ -12,3 +12,6 @@ dados |> ggplot(aes(x = metragem)) + geom_histogram(bins = 5, color = "gray", fi
   theme_classic()
 
 # 3. Medidas descritivas
+mean(imposto_anual)
+median(imposto_anual)
+sd(imposto_anual)
